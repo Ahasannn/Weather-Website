@@ -43,7 +43,7 @@ app.get('/about',(req,res)=>{
 
 app.get('/help',(req,res)=>{
     res.render('help',{
-        helpText: 'For any kind of query, contact me at ahasankabir146@gmail.com',
+        helpText: 'For any kind of query, contact me at ahasankabir146@gmail.com!',
         title: 'Help',
         name : 'Ahasan Kabir'
     })
